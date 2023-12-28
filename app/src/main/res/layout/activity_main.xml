@@ -13,86 +13,71 @@
 
         <ImageView
             android:id="@+id/androidImg"
-            android:layout_width="0dp"
+            android:layout_width="match_parent"
             android:layout_height="200dp"
             android:layout_margin="20dp"
-            android:scaleType="fitXY"
             android:src="@drawable/android"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/androidBtn"
-            android:layout_width="0dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="10dp"
             android:layout_marginVertical="8dp"
             android:background="@drawable/button_background"
-            android:padding="20dp"
+            android:padding="16dp"
             android:text="@string/android_course"
             android:textColor="@color/white"
             android:textSize="16sp"
             android:textStyle="bold"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/androidImg" />
 
         <ImageView
             android:id="@+id/iosImg"
-            android:layout_width="0dp"
+            android:layout_width="match_parent"
             android:layout_height="200dp"
             android:layout_marginVertical="8dp"
             android:layout_marginHorizontal="20dp"
-            android:scaleType="fitXY"
             android:src="@drawable/ios"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/androidBtn" />
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/iosBtn"
-            android:layout_width="0dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginVertical="8dp"
             android:layout_marginHorizontal="10dp"
             android:background="@drawable/button_background"
-            android:padding="20dp"
+            android:padding="16dp"
             android:text="@string/ios_course"
             android:textColor="@color/white"
             android:textSize="16sp"
             android:textStyle="bold"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/iosImg" />
 
         <ImageView
             android:id="@+id/fullStackImg"
-            android:layout_width="0dp"
+            android:layout_width="match_parent"
             android:layout_height="200dp"
             android:layout_marginVertical="8dp"
             android:layout_marginHorizontal="20dp"
-            android:scaleType="fitXY"
             android:src="@drawable/full_stack"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/iosBtn" />
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/fullStackBtn"
-            android:layout_width="0dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:layout_marginBottom="20dp"
             android:layout_marginHorizontal="10dp"
             android:background="@drawable/button_background"
-            android:padding="20dp"
+            android:padding="16dp"
             android:text="@string/full_stack_course"
             android:textColor="@color/white"
             android:textSize="16sp"
             android:textStyle="bold"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/fullStackImg"
             app:layout_constraintBottom_toBottomOf="parent"/>
     </androidx.constraintlayout.widget.ConstraintLayout>
